@@ -1,0 +1,116 @@
+#topbar {
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .left,
+    .right {
+        // width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .left {
+        .line_v {
+            width: 1px;
+            height: 24px;
+            background-color: #707070;
+            // margin: 0 16px;
+        }
+        .title_text{
+            width: 103px;
+            height: 23px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.012em;
+            text-transform: uppercase;
+            color: #333333;
+            margin: 0px 16px;
+        }
+        .pop_btn_addnew {
+            // background-color: #F7F7F7;
+            border-radius: 3px;
+            overflow: hidden;
+            width: 170px;
+            height: 40px;
+            // padding: 10px;
+            button {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+            }
+            
+        }
+        .reset_btn-addnew{
+            border: none;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .reset_btn-addnewncc{
+            border: none;
+            background-color: #fff;
+            cursor: pointer;
+
+        }
+    }
+    .right {
+        justify-content: flex-end;
+        .icon_ {
+            width: 24px;
+            height: 24px;
+        }
+        .menu_top_right {
+            .menu_top_right_item {
+                margin-right: 12px;
+                position: relative;
+                border: none;
+                outline: none;
+                background: none;
+                .note {
+                    background-color: #FF2C00;
+                    color: #FFFFFF;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    font-size: 8px;
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    right: 0;
+                    top: 0;
+                }
+                &:hover{
+                    background-color: #e3e0e0;
+                    border-radius: 30px;
+                    width: 25px;
+                  
+                }
+            }
+        }
+        .btn_user {
+            button {
+                width: 36px;
+                height: 36px;
+                background-color: #FFCD29;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .menu_top_right_item {
+                margin-right: 12px;
+                
+            }
+            .icon_ {
+                margin: 0;
+            }
+        }
+    }
+}

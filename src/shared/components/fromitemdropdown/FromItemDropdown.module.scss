@@ -1,0 +1,123 @@
+.dropitem-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 346px;
+    height: 60px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    .inputitem-stand-drop{
+        display: flex;
+        .text-item-danhmuc{
+            height: 20px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.01em;
+            color: #333333;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        .valide-danhmuc{
+            color: #FF3434;
+        }
+    }
+    #dropdown-item{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 10px;
+        gap: 4px;
+        width: 346px;
+        height: 32px;
+        border: 1px solid #ACACAC;
+        border-radius: 3px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        .inputs_item-drop{
+            margin-right: 10px;
+            height: 32px;
+            display: flex;
+            flex-direction: row-reverse;
+            .reset_input-drop{
+                background-color: unset;
+                border: none;
+                outline: none;
+            }
+            .input_item-drop{
+                
+                margin-left: 10px;
+                width: 302px;
+                height: 25px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.01em;
+                // color: #E3E3E3;
+                flex: none;
+                order: 0;
+                flex-grow: 1;
+                margin-top: 3px;
+            }
+            .icon_float-drop{
+                height: 100%;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                margin-right: 5px;
+                transition: all 0.3s linear;
+                flex-direction: row;
+                .icon_danhmuc{
+                    width: 20px;
+                    height: 20px;
+                }
+                
+            }
+            .icon_float-drop.is_change-drop{
+                transform: rotate(-180deg);
+            }
+        }
+     .dropdown_body-item{
+        position: absolute;
+        display: none;
+        width: auto;
+        background-color: #fff;
+        box-shadow: 0px 4px 12px rgb(0 0 0 / 8%), 0px 2px 6px rgb(0 0 0 / 5%), 0px 1px 3px rgb(0 0 0 / 15%);
+        padding: 10px;
+        ul{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            list-style-type: none;
+            display: flex;
+            padding: 12px 2px;
+            width: 100%;
+            height: 40px;
+            border: none;
+        }
+     }   
+     .dropdown_body-item.show-drop{
+        display: flex;
+        width: 343px;
+        // margin-right: 15px;
+     }
+    }
+
+}

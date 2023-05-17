@@ -1,0 +1,29 @@
+
+
+#main_page {
+    display: flex;
+    width: 100%;
+    background: #ECECEE;
+    justify-content: space-between;
+    height: 100vh;
+    .left_main {
+        width: 228px;
+    }
+    .right_main {
+        width: calc(100% - 228px);
+    }
+    .MainLayout {
+        // margin: 0 10px;
+        // // width: 100%;
+        // overflow-y: auto;
+        // height: calc(100vh - 50px);
+        // padding: 15px;
+    }
+}
+
+// #main_page .left_main {
+//     width: 228px;
+// }
+// #main_page .right_main {
+//     width: calc(100%-288px);
+// }
